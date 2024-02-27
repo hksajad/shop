@@ -1,0 +1,31 @@
+@media screen and (max-width: 1400px) {    
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .nav-item{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }.box-free{
+    display: flex;
+    flex-direction: column;
+  }.swiper {
+    width: 332px;
+    height: 400px;
+  }.caption-free{
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home .img-home{
+    margin-top: 93px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .swiper {
+    width: 255px;
+    height: 400px;
+  }.caption-free{
+    padding: 15px;
+  }
+}
